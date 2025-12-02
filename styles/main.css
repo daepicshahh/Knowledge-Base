@@ -1,0 +1,31 @@
+/* styles/main.css */
+
+body {
+    /* Sets the background of the entire page to black */
+    background-color: #4a8b42;
+
+    /* Sets the default text color for the entire page to white */
+    color: #FFFFFF;
+}
+/* styles/main.css - Add this below your 'body' styles */
+
+/* 1. Sets the color for links the user HAS NOT visited */
+a:link {
+    color: #00FF00; /* Bright Green */
+}
+
+/* 2. Sets the color for links the user HAS visited */
+a:visited {
+    color: #00CC00; /* Slightly darker green */
+}
+
+/* 3. Sets the color when the mouse HOVERS over the link */
+a:hover {
+    color: #FFFFFF; /* White */
+    text-decoration: none; /* Removes the underline on hover */
+}
+
+/* 4. Sets the color WHEN the user is actively clicking the link */
+a:active {
+    color: #FFFF00; /* Yellow */
+}
